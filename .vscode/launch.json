@@ -3,7 +3,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "pnpm run dev",
+			"name": "npm run dev",
 			"type": "chrome",
 			"request": "launch",
 			"preLaunchTask": "npm: dev",
