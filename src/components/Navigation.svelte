@@ -17,7 +17,7 @@
 			<li>
 				<a
 					href={navItem.href}
-					class="text-md font-medium uppercase text-gray-500 hover:border-b-4 hover:border-gray-900 hover:text-gray-900 md:text-lg"
+					class="text-md font-medium uppercase text-gray-500 hover:border-b-4 hover:border-indigo-500 hover:text-indigo-500 md:text-lg"
 				>
 					{navItem.label}
 				</a>

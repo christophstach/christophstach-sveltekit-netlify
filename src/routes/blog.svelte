@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Christoph Stach - Blog</title>
+</svelte:head>
+
 <article class="prose prose-sm prose-indigo mx-auto max-w-none">
 	<h1>HTML Ipsum Presents</h1>
 
