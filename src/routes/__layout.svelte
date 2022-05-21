@@ -1,5 +1,5 @@
 <script>
-	import Navigation from 'src/components/Navigation.svelte';
+	import Navigation from '$components/Navigation.svelte';
 	import '../app.css';
 </script>
 

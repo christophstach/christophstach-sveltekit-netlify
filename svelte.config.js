@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
+import * as path from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,6 +9,14 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		vite: {
+			resolve: {
+				alias: {
+					$components: path.resolve('src/components'),
+					$routes: path.resolve('src/routes')
+				}
+			}
+		},
 		adapter: adapter({
 			edge: true,
 			split: false

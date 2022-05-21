@@ -1,9 +1,12 @@
 {
+	"html.autoClosingTags": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": false,
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"html.autoClosingTags": false
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	}
 }
