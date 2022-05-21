@@ -7,7 +7,7 @@
 	<Navigation />
 
 	<div class="px-10">
-		<main class="bg-white mx-auto px-16 py-16 rounded-xl shadow-xl max-w-[960px]">
+		<main class="mx-auto max-w-[960px] overflow-auto rounded-xl bg-white p-16 shadow-xl">
 			<slot />
 		</main>
 	</div>
