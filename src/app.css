@@ -4,6 +4,7 @@
 
 @layer base {
 	html {
+		font-size: 10pt;
 		font-family: 'Roboto Mono', monospace;
 	}
 }
