@@ -35,10 +35,10 @@
 
 {#each educationItems as item}
 	<div class="mb-10">
-		<div class="flex">
-			<div class="flex-1">
+		<div class="md:flex">
+			<div class="md:flex-1">
 				<h3 class="text-lg">{item.title}</h3>
-				<h4 class="mb-4 text-sm">{item.institution}</h4>
+				<h4 class="text-sm ">{item.institution}</h4>
 			</div>
 			<div class="text-xs text-gray-500">
 				{item.from.format('MMMM YYYY')} -
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 
-		<p class="prose prose-sm prose-indigo mb-5 max-w-none">{@html item.description}</p>
+		<p class="prose prose-sm prose-indigo mb-5 mt-4 max-w-none">{@html item.description}</p>
 
 		{#if item.bullets.length > 0}
 			<ul class="list-disc text-sm">
