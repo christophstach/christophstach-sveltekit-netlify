@@ -1,5 +1,5 @@
 {
-	"editor.wordWrap": true,
+	"editor.wordWrap": "on",
 	"html.autoClosingTags": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
