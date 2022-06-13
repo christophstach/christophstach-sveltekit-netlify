@@ -4,7 +4,7 @@
 	"configurations": [
 		{
 			"name": "npm run dev",
-			"type": "chrome",
+			"type": "msedge",
 			"request": "launch",
 			"preLaunchTask": "npm: dev",
 			"url": "http://localhost:3000"
