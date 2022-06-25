@@ -1,5 +1,5 @@
 <script>
-	import { format, isBefore } from 'date-fns';
+	import { format, isBefore, addMonths } from 'date-fns';
 
 	const items = [
 		{
@@ -11,7 +11,7 @@
 				'Developing a PHP Symfony framework middleware to connect the AngularJS (v1) frontend with the systems core REST API'
 			],
 			from: new Date(2016, 11, 1),
-			to: new Date()
+			to: addMonths(new Date(), 2)
 		},
 		{
 			title: 'Fullstack Developer',
