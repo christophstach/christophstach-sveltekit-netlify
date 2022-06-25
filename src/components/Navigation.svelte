@@ -4,10 +4,10 @@
 		// { label: 'Blog', href: '/blog', exact: false },
 		{ label: 'Education', href: '/education', exact: false },
 		{ label: 'Experience', href: '/experience', exact: false },
-		// { label: 'Projects', href: '/projects', exact: false },
+		{ label: 'Projects', href: '/projects', exact: false }
 		// { label: 'About me', href: '/about-me', exact: false },
 		// { label: 'Skills', href: '/skills', exact: false },
-		{ label: 'Contact', href: '/contact', exact: false }
+		// { label: 'Contact', href: '/contact', exact: false }
 	];
 </script>
 

@@ -10,6 +10,7 @@ const config = {
 
 	kit: {
 		vite: {
+			plugins: [],
 			resolve: {
 				alias: {
 					$components: path.resolve('src/components'),
